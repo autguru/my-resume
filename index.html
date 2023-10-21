@@ -1,56 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
-Front-End Developer
-Anna Tatarenko
-My name is Anna Tata. I am an experienced front-end developer and designer and can create a site from scratch and fill it with the necessary unique content as you wish.
+    <link rel="stylesheet" href="./css/styles.css" />
 
-Project
-https://partner-dnepr.at.ua/ ................................[ HTML5, CSS3 ]
-https://http://maestro-w.at.ua/ ..........................[ Designe ]
-https://http://got.at.ua// ..........................................[ My resume ]
-Work Experience
-Front-End Developer Freelance
-February 2012 - up to now | Ukraine
+    <title>My resume</title>
+  </head>
 
-Website design development.
-Stylization of site functionality.
-Content creation. Filling the site with appropriate unique content.
-Creation of photos and photomontage.
-Manager Partner-Dnepr
-March 2012 - October 2018 | Ukraine
+  <body>
+    <!-- wrapper -->
+    <div class="wrapper">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- About me -->
+        <div class="about-me-container">
+          <h2 class="my-profession">Front-End Developer</h2>
+          <h1 class="my name">Anna Tatarenko</h1>
 
-Website design development.
-Stylization of site functionality.
-Creation of photos and photomontage.
-Promotion of the site on the Internet.
-Front-End and Backend Developer Maestro-W
-February 2015 - June 2016 | Ukraine
+          <p class="my-descr">
+            My name is Anna Tata. I am an experienced front-end developer and
+            designer and can create a site from scratch and fill it with the
+            necessary unique content as you wish.
+          </p>
+        </div>
+        <!-- My projects -->
+        <div class="project-container">
+          <h3 class="main-content-title">Project</h3>
+          <ol class="project-list">
+            <li class="project-item">
+              <a href="http://partner-dnepr.at.ua/" class="project-item-list"
+                >https://partner-dnepr.at.ua/</a
+              >
+              <span class="project-item-descr">
+                ................................[ HTML5, CSS3 ]</span
+              >
+            </li>
+            <li class="project-item">
+              <a
+                href="https://http://maestro-w.at.ua/"
+                class="project-item-list"
+                >https://http://maestro-w.at.ua/</a
+              >
+              <span class="project-item-descr"> ..........................[ Designe ]</span>
+            </li>
+            <li class="project-item">
+              <a href="https://http://got.at.ua/" class="project-item-list"
+                >https://http://got.at.ua//</a
+              >
+              <span class="project-item-descr">
+                ..........................................[ My resume
+                ]</span
+              >
+            </li>
+          </ol>
+        </div>
+        <!-- Work experience -->
+        <div class="work-experience-container">
+          <h3 class="main-content-title">Work Experience</h3>
+          <!-- Work Company 1 -->
+          <div class="work-experience-item">
+            <h4 class="work-experience-position">
+              Front-End Developer
+              <span class="work-experience-company">Freelance</span>
+            </h4>
+            <p class="work-period">February 2012 - up to now | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">Website design development.</li>
+              <li class="work-duties">Stylization of site functionality.</li>
+              <li class="work-duties">
+                Content creation. Filling the site with appropriate unique
+                content.
+              </li>
+              <li class="work-duties">Creation of photos and photomontage.</li>
+            </ul>
+          </div>
+          <!-- Work Company 2 -->
+          <div class="work-experience-item">
+            <h4>
+              Manager
 
-Creation of a business card website of an online store. Stylization. Filling.
-Creating and formatting a photo collection of shoes.
-Site functionality.
-Promotion of the site on the Internet.
-Education
-National Metallurgical Academy of Ukraine
-Management
-September 2002 - June 2008 | Ukraine
+              <span class="work-experience-company">Partner-Dnepr</span>
+            </h4>
+            <p class="work-period">March 2012 - October 2018 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">Website design development.</li>
+              <li class="work-duties">Stylization of site functionality.</li>
+              <li class="work-duties">Creation of photos and photomontage.</li>
+              <li class="work-duties">
+                Promotion of the site on the Internet.
+              </li>
+            </ul>
+          </div>
+          <!-- Work Company 3 -->
+          <div class="work-experience-item">
+            <h4>
+              Front-End and Backend Developer
+              <span class="work-experience-company">Maestro-W</span>
+            </h4>
+            <p class="work-period">February 2015 - June 2016 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Creation of a business card website of an online store.
+                Stylization. Filling.
+              </li>
+              <li class="work-duties">
+                Creating and formatting a photo collection of shoes.
+              </li>
+              <li class="work-duties">Site functionality.</li>
+              <li class="work-duties">
+                Promotion of the site on the Internet.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="education-container">
+          <h3 class="main-content-title">Education</h3>
+          <h4 class="work-experience-company">
+            National Metallurgical Academy of Ukraine
+          </h4>
+          <h5>Management</h5>
+          <p class="work-period">September 2002 - June 2008 | Ukraine</p>
+        </div>
+      </div>
+      <aside class="sidbar">
+        <!-- Sidebar -->
+        <img
+          src="./img/img1.jpg"
+          alt="my photo"
+          width="370px"
+          class="my-photo"
+        />
+        <!-- Contacts -->
+        <div class="contacts-container">
+          <h3 class="sidbar-title">Contacts</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">C:</span>
+            <a href="tel:+4571533202" class="contacts-nomber">
+              +45 715 33 202
+            </a>
+          </p>
 
-my photo
-Contacts
-C: +45 715 33 202
+          <p class="contacts-item">
+            <span class="contacts-type"> E:</span>
+            <a href="mailto:t.goitinskiy@gmail.com" class="contacts-email"
+              >comanna385@gmail.com</a>
+          </p>
+        </div>
+        <!-- Tech Skills -->
+        <div class="tech-skills-container">
+          <h3 class="sidbar-title">Tech Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">HTML5</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">CSS3</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GIT</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">JavaScript</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Adobe Photoshop</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Node.js</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">WebPack</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Soft Skills -->
+        <div class="soft-skills-container">
+          <h3 class="sidbar-title">Soft Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">Scrum</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Agile</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GTD</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
 
-E: comanna385@gmail.com
-
-Tech Skills
-HTML5
-CSS3
-GIT
-JavaScript
-Adobe Photoshop
-Node.js
-WebPack
-Soft Skills
-Scrum
-Agile
-GTD
-Teamwork
